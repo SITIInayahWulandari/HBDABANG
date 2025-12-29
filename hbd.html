@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Brithday sayangku 🎉</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      background: white;
+      width: 90%;
+      max-width: 420px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      padding: 25px;
+      text-align: center;
+    }
+    h1 {
+      color: #ff6f91;
+    }
+    p {
+      line-height: 1.6;
+      color: #444;
+    }
+    img {
+      width: 100%;
+      border-radius: 15px;
+      margin: 10px 0;
+    }
+    .play-box {
+      background: #fff0f5;
+      border-radius: 15px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 30px;
+      background: #ff6f91;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+
+<div class="card">
+
+  <!-- MUSIK DI PALING ATAS -->
+  <div class="play-box">
+    <p><b>🎶 Klik dulu ya musiknya biar makin unyu💖 🎶</b></p>
+    <audio id="musik" loop>
+      <source src="lagu.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="playMusic()">▶ Play Musik</button>
+  </div>
+
+  <h1>Happy Brithday sayanggg 🎂💖</h1>
+
+  <p>
+    SELAMAT MENUA SAYANGKU ! untuk laki laki terhebat yang pernah ade temui. ini tahun pertama adengucapkan dan meskipun ucapan ini tidak pernah sampai kepada sayang secara langsung.
+
+  ade ingin mengucapkan terimakasih kepada ibu kamu yang telah melahirkan laki laki sehebat sayang, lalu membesarkannya sehingga tumbuh menjadi pribadi yang sangat baik. ade juga harus berterimakasih kepada tuhan yang telah menciptakan sayang begitu sempurna. Banyak sekali yang saya syukuri perihal kelahiran sayang, karena berkat sayang dilahirkan ade bisa mengenal sayang, bertemu sayang, dan jatuh cinta dengan sayang.
+
+
+
+  Seiring bertambahnya usia akan banyak sekali hal yang menyakitkan kedepannya, namun ade berharap sayang bisa mengatasi hal tersebut dengan mudah. Sekali lagi terimakasih telah terlahir ke dunia, terimakasih telah tumbuh dengan baik, terimakasih karena pernah mencintai saya yang banyak kurangnya ini. Semua doa baik akan saya doakan. Hanya satu doa yang akan ade sebutkan disini, semoga sayang senantiasa diberi kebahagiaan di setiap harinya dan mampu menjalani apapun yang terjadi di kehidupan ini dengan senyuman. Karena kebahagiaan ade adalah melihat sayang tersenyum. Sekali lagi selamat bertambah usia yaa 💖
+  </p>
+
+  <!-- 3 FOTO -->
+  <div class="gallery">
+<img src="foto1.jpg" alt="Foto utama">
+<img src="foto2.jpg" alt="Foto 2">
+<img src="foto3.jpg" alt="Foto 3">
+</div>
+
+  <p>
+    SEMANGAT TERUS UNTUK KEDAPANYA KERNA ADE INGIN MENJALANI STERUS NYA DENGAN SAYANG SEMOGA ADE BISA SELALU MERAYAKAN SAYANG , I LOVE U🌸
+  </p>
+
+</div>
+
+<script>
+  function playMusic() {
+    document.getElementById('musik').play();
+  }
+</script>
+
+</body>
+</html>
